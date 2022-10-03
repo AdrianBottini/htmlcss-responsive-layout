@@ -103,10 +103,18 @@ html {
     width: 300px;
     margin-bottom: 20px;
     text-align: center;
+    padding: 20px;
 }
 
-.grand-card {
+.cards-grand-card {
+    display: flex;
     width: 600px;
+    padding: 20px;
+    text-align: left;
+    background-color: aqua;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .img-phone {
@@ -114,12 +122,22 @@ html {
     height: 200px;
 }
 
+.lorem {
+    margin-bottom: 20px;
+}
 
 .Clean {
     font-size: 70px;
     color: #0084FD;
-    display: flex;
-    justify-content: center;
+}
+
+.btn-apple {
+    background-color: #0084FD;
+    padding: .5rem;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
 }
 
 h2 {
