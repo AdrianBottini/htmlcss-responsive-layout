@@ -92,20 +92,28 @@ html {
     max-width: 1120px;
     margin: 50px auto;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .cards {
     background-color: aqua;
     border-radius: 20px;
     margin-right: 20px;
-    display: flex;
-    flex-wrap: wrap;
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.grand-card {
+    width: 600px;
 }
 
 .img-phone {
     display: inline-block;
-    width: 200px;
+    height: 200px;
 }
+
 
 .Clean {
     font-size: 70px;
