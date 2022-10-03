@@ -94,6 +94,17 @@ html {
     display: flex;
 }
 
+.primo {
+    background-color: aqua;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.secondo {
+    background-color: aqua;
+    border-radius: 20px;
+}
+
 .img-phone {
     display: inline-block;
     width: 200px;
