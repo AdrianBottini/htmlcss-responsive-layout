@@ -284,6 +284,10 @@ h2 {
     border-radius: 50px;
 }
 
+.sezione4 {
+    padding: 30px;
+}
+
 .margin {
     margin-top: 40px;
     padding: 5px;
@@ -349,6 +353,7 @@ h2 {
     gap: 1.5em;
     padding: 2em;
     border-radius: 25px;
+    margin-bottom: 30px;
 }
 
 .vio {
@@ -392,4 +397,22 @@ h2 {
     position: absolute;
     top: 0;
     left: 45%;
+}
+
+.sinistra {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.find {
+    background-color: blueviolet;
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.bottone {
+    margin-left: 20px;
 }
