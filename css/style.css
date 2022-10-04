@@ -109,33 +109,38 @@ html {
     }    
 }
 
-.container2 .cards-grand-card {
+.features {
+    padding: 1rem 0;
+}
+
+.features .container2 {
     gap: 1rem;
     display: flex;
     flex-wrap: wrap;
 }
 
-.container2 .card-features {
+.features .card-features {
+    flex: 1 1 100%;
     background-color: aqua;
-    border-radius: 20px;
-    text-align: center;
-    padding: 20px;
+    border-radius: 2rem;
+    padding: 1rem;
 }
 
-.cards-grand-card {
+.card-demo {
     display: flex;
-    padding: 20px;
-    text-align: left;
-    background-color: aqua;
-    border-radius: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
 }
 
-.img-phone {
-    display: inline-block;
-    height: 200px;
-    padding: 0;
+.card-demo .left {
+    flex: 0 0 100%;
+}
+
+.card-demo img {
+    display: block;
+    width: 196px;
+    margin-bottom: -1rem;
 }
 
 .lorem {
@@ -158,6 +163,32 @@ html {
 
 h2 {
     color: #0084FD;
+}
+
+@media screen and (min-width: 376px) {
+    .features .card-features {
+        flex-basis: calc((100% - 2rem) / 3);
+    }
+
+    .features .card-demo {
+        flex-basis: calc(100% - calc(100% - 2rem) / 3);
+    }
+
+    .card-demo {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (min-width: 813px) {
+    .card-demo .left {
+        flex: 0 0 50%;
+    }
+
+    .card-demo img {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
 }
 
 .container3 {
@@ -203,12 +234,11 @@ h2 {
 }
 
 .testo {
-    width: 400px;
     color: white;
 }
 
 .container4 {
-    width: 1120px;
+    width: 100%;
     margin: 50px auto;
     text-align: center;
 }
