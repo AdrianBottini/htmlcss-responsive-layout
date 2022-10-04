@@ -69,7 +69,7 @@ html {
     display: block;
 }
 
-@media screen and (min-width: 811px) {
+@media screen and (min-width: 810px) {
     .nav-top ul {
         position: static;
         height: 100%;
@@ -134,7 +134,6 @@ html {
     background-color: aqua;
     border-radius: 2rem;
     padding: 1rem;
-
     text-align: center;
 }
 
@@ -193,7 +192,7 @@ h2 {
     }
 }
 
-@media screen and (min-width: 813px) {
+@media screen and (min-width: 810px) {
     .card-demo .left {
         flex: 0 0 50%;
     }
@@ -254,12 +253,21 @@ h2 {
     }
 }
 
-@media screen and (min-width: 813px) {
-    .violet {
-        width: 50%;
+@media screen and (max-width: 810px) {
+    .sezione2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
+}
+
+@media screen and (min-width: 811px) {
+    .violet {
+        width: 60%;
+    }
+
     .white {
-        width: 50%;
+        width: 40%;
     }
 }
 
@@ -288,11 +296,10 @@ h2 {
 }
 
 .sezione4 {
-    padding: 30px;
+    padding: 50px;
 }
 
 .margin {
-    margin-top: 40px;
     padding: 5px;
     margin-left: 30px;
     margin-right: 30px;
@@ -325,9 +332,10 @@ h2 {
     align-items: center;
     }
 }
+
 @media screen and (min-width: 811px) {
     .sezione4a {
-        width: 50%;
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
     }
