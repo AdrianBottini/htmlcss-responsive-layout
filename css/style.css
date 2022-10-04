@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 html {
     font-family: 'Roboto', sans-serif;
 }
@@ -25,6 +29,7 @@ html {
 .nav-top {
     background-color: #0084FD;
     height: 4.7rem;
+    position: relative;
 }
 
 .nav-top .container {
@@ -36,12 +41,28 @@ html {
 
 .nav-top ul {
     display: none;
+    /* position: absolute;
+    top: 4.7rem;
+    right: 0;
+    left: 0%;
+    background-color: white;
+    text-align: center;
+    list-style: none; */
 }
+
+/* .nav-top li {
+   padding: 1rem;
+   border-bottom: 1px solid lightgray;
+} */
 
 .nav-top .hamburgher {
     color: white;
     font-size: 1.5rem;
 }
+
+/* .nav-top .hamburgher:hover + ul {
+    display: block;
+} */
 
 @media screen and (min-width: 811px) {
     .nav-top ul {
@@ -88,27 +109,21 @@ html {
     }    
 }
 
-.container2 {
-    max-width: 1120px;
-    margin: 50px auto;
+.container2 .cards-grand-card {
+    gap: 1rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
-.cards {
+.container2 .card-features {
     background-color: aqua;
     border-radius: 20px;
-    margin-right: 20px;
-    width: 300px;
-    margin-bottom: 20px;
     text-align: center;
     padding: 20px;
 }
 
 .cards-grand-card {
     display: flex;
-    width: 620px;
     padding: 20px;
     text-align: left;
     background-color: aqua;
@@ -210,6 +225,10 @@ h1 {
     margin-top: 40px;
     background-color: blueviolet;
     color: white;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 50px;
 }
 
 .margin {
@@ -224,8 +243,17 @@ h1 {
     text-decoration: double;
 }
 
+.img2a {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50px;
+    flex-shrink: 0;
+}
+
 .img-tonda {
-    width: 200px;
-    border-radius: 1000px;
-    padding: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
