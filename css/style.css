@@ -335,7 +335,6 @@ h2 {
 
 @media screen and (min-width: 811px) {
     .sezione4a {
-        width: 70%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -426,4 +425,61 @@ h2 {
 
 .bottone {
     margin-left: 20px;
+}
+
+.container7 {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.simple {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.yellow {
+    color: orange;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.bottone {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-finale {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: blueviolet;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.privacy {
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.finale {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    color: blueviolet;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
