@@ -348,6 +348,12 @@ h2 {
     gap: 2em;
 }
 
+.sezione5 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
 .bianco {
     font-size: 40px;
     margin-top: 30px;
@@ -360,10 +366,12 @@ h2 {
     background-color: white;
     display: flex;
     flex-direction: column;
-    gap: 1.5em;
     padding: 2em;
     border-radius: 25px;
-    margin-bottom: 30px;
+}
+
+ .blocchi {
+    flex: 0 0 100%;
 }
 
 .vio {
@@ -382,6 +390,20 @@ h2 {
     text-decoration: none;
     width: fit-content;
     letter-spacing: 5px;
+}
+
+@media screen and (min-width: 376px) {
+    .blocchi {
+        flex: 1 0 45%;
+    }
+    
+}
+
+@media screen and (min-width: 811px) {
+    .blocchi {
+        flex: 1 0 30%;
+    }
+    
 }
 
 .lorem2 {
@@ -426,6 +448,13 @@ h2 {
 .bottone {
     margin-left: 20px;
 }
+
+/* @media screen and (min-width: 376px) {
+    .sezione6 {
+        display: flex;
+    }
+    
+} */
 
 .container7 {
     background-color: blueviolet;
